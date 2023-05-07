@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>les 25</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<script
+     src="https://code.jquery.com/jquery-3.1.0.min.js"> 
+    </script>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+    $("#knop").click(function() {
+       var naam = $("#idTekstveld1").val();
+       var boek = $("#idTekstveld2").val();
+       var film = $("#idTekstveld3").val();
+  window.alert(
+    "Ik ben " + naam +
+    " en mijn favoriete boek is " + boek +
+    " en mijn favoriete film is " + film );
+    });
+    });
+</script>
+</head>
+
+<body>
+    <header class="header"><h1>Welkom bij huiswerkopgave les 25</h1></header><br>
+    <div class="col-2">
+<form>
+Wat is uw naam?
+<input type="text" id="idTekstveld1"><br><br>
+Wat is uw favoriete boek?
+<input type="text" id="idTekstveld2"><br><br>
+Wat is uw favoriete film?
+<input type="text" id="idTekstveld3"><br><br>
+<input id="knop" name="knop" type="button"
+value="Klik op deze knop">
+</form>
+    </div>
+    <div class="col-9">
+        <h2>Lorem Ipsum</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pretium orci ac augue maximus fringilla. Mauris justo sem, volutpat a ipsum a, faucibus pretium lorem. Fusce vel dictum lectus, eget ultricies justo. Morbi hendrerit turpis quam. Sed eget tempus est. Donec venenatis, tortor et varius ullamcorper, diam orci aliquet mi, quis porta dui libero et erat. In ut sodales sem. Nam id lorem ut justo sollicitudin eleifend. Phasellus dapibus ex odio, id convallis elit euismod non. Donec tempor ante et diam accumsan placerat. Integer porttitor facilisis eleifend. Nulla ac risus et odio elementum dignissim vitae non magna. Donec nec pulvinar erat.</p>
+          <p> Sed dignissim, ipsum eget lobortis suscipit, eros est aliquam risus, ut vestibulum nisl neque eu nulla. Nulla porttitor lacus sed lacinia elementum. Morbi eu mattis odio. Integer vitae leo a quam vulputate pharetra posuere vitae dui. Etiam elementum, tellus a eleifend posuere, justo erat hendrerit ipsum, sed pellentesque odio neque tristique tellus. In at neque purus. In eget elit massa. Vestibulum iaculis et felis nec bibendum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin suscipit, lectus nec auctor bibendum, felis elit imperdiet dui, in volutpat nibh nisl at augue. Curabitur luctus nisl nec sagittis consequat. Nam imperdiet faucibus lacus in gravida.</p>
+            <p> Sed faucibus, ligula viverra efficitur mattis, risus lectus iaculis nibh, eu vehicula ante tellus non purus. Morbi sed orci sem. Morbi tincidunt sem quis viverra euismod. Maecenas tincidunt orci eget nibh semper, in facilisis felis facilisis. Mauris non dolor justo. Praesent nunc ex, malesuada et mollis in, lacinia eu mauris. Morbi augue libero, porta molestie nisl quis, faucibus rutrum lorem.</p>
+    </div>
+    
+<footer class="footer">&copy;Sylvain de Lange 2023</footer>
+    
+</body>
+</html>
